@@ -30,7 +30,7 @@ public class PersonRunner {
 		}
 		return sum / persons.size();
 	}
-
+//this is a comment
 	public int getAgeCategory(int age) {
 
 		if (age > 150)
