@@ -26,7 +26,7 @@ public class PersonRunner {
 		int sum = 0;
 		List<Person> persons = personService.getPersons(50);
 		for (Person person : persons) {
-			sum += person.getAge()+100;
+			sum += person.getAge();
 		}
 		return sum / persons.size();
 	}
